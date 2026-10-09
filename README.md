@@ -12,19 +12,6 @@ service or network is unavailable.
 
 ---
 
-## Share this project
-
-Copy-paste summary for sharing:
-
-> **ClawSense** — an ESP32-S3 IoT system where an LLM agent proposes actuator
-> actions, but a deterministic **safety supervisor** (independent of the LLM)
-> validates every proposal, with an explicit state machine and an **offline
-> fallback controller** when the agent is unreachable. Includes a FastAPI/SQLite
-> backend, a React dashboard, firmware, and a 78-test pytest suite.
-> <https://github.com/Chetan0246/clawsense>
-
----
-
 ## ⚠️ Safety notice
 
 - In the default **simulation** mode every sensor value and actuator result is
