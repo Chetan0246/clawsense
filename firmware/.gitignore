@@ -1,0 +1,9 @@
+# ClawSense firmware local ignores
+#
+# WiFi credentials live in include/secrets.h and MUST NEVER be committed.
+# Copy include/secrets.example.h to include/secrets.h to configure WiFi.
+include/secrets.h
+
+# PlatformIO build artefacts
+.pio/
+.vscode/
